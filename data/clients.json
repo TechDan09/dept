@@ -1,0 +1,72 @@
+[
+  {
+    "name": "BOL.COM",
+    "description": "A Summer island in the Netherlands",
+    "brandImage": "/assets/images/client-list/bol.png"
+  },
+  {
+    "name": "KEMPEN",
+    "description": "Not some average banking website",
+    "brandImage": "/assets/images/client-list/kempen.png"
+  },
+  {
+    "name": "PHILIPS",
+    "description": "Beautiful design meets innovative technology",
+    "brandImage": "/assets/images/client-list/philips.png"
+  },
+  {
+    "name": "GEMEENTEMUSEUM",
+    "description": "A 100 years of Mondriaan & De Stijl",
+    "brandImage": "/assets/images/client-list/gemeentemuseum.png"
+  },
+  {
+    "name": "FLORENSIS",
+    "description": "Rethinking the entire online ecosystem",
+    "brandImage": "/assets/images/client-list/florensis.png"
+  },
+  {
+    "name": "BE LIGHTNING",
+    "description": "Delivering clarity on a global scale",
+    "brandImage": "/assets/images/client-list/be-lightning.png"
+  },
+  {
+    "name": "TUI",
+    "description": "Swipe to find your next holiday destination",
+    "brandImage": "/assets/images/client-list/tui.png"
+  },
+  {
+    "name": "FLORENSIS",
+    "description": "Rethinking the entire online ecosystem",
+    "brandImage": "/assets/images/client-list/be-lightning.png"
+  },
+  {
+    "name": "CHOCOMEL",
+    "description": "A campaign for the limited edition letter packs",
+    "brandImage": "/assets/images/client-list/chocomel.png"
+  },
+  {
+    "name": "JBL",
+    "description": "Live like a champion with Jerome Boateng",
+    "brandImage": "/assets/images/client-list/jbl.png"
+  },
+  {
+    "name": "ZALANDO",
+    "description": "Innovative SEO and content strategy for Zalando",
+    "brandImage": "/assets/images/client-list/zalando.png"
+  },
+  {
+    "name": "KONINKLIJKE BIBLIOTHEEK",
+    "description": "The search of the most influential book ever",
+    "brandImage": "/assets/images/client-list/koninklijke.png"
+  },
+  {
+    "name": "LIBERTY GLOBAL ",
+    "description": "Delivering complex commerce solutions",
+    "brandImage": "/assets/images/client-list/liberty-goal.png"
+  },
+  {
+    "name": "ARLA ",
+    "description": "Swipe to find your next holiday destination",
+    "brandImage": "/assets/images/client-list/arla.png"
+  }
+]

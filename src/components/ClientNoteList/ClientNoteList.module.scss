@@ -1,0 +1,14 @@
+@import '~/styles/base.scss';
+
+.container {
+  width: 100%;
+  background-color: $base-dark;
+  color: $base-white;
+  padding: 2.4rem;
+  display: grid;
+  place-items: center;
+
+  @include media('>=tablet') {
+    padding: 6.5rem 3.2rem;
+  }
+}

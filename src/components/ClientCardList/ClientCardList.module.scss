@@ -1,0 +1,10 @@
+@import '~/styles/base.scss';
+
+.clientCardList {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @include media('>=tablet') {
+    grid-template-columns: 1fr 1fr;
+  }
+}

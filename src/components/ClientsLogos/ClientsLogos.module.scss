@@ -1,0 +1,38 @@
+@import '~/styles/base.scss';
+
+.container {
+  background-color: $base-dark;
+  color: $base-white;
+  padding: 9.2rem 3.2rem;
+
+  h2 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    padding-bottom: 3.2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+.clientLogos {
+  display: grid;
+  grid-template-columns: repeat(2, 115px);
+  justify-content: space-between;
+  row-gap: 8.3rem;
+  margin-top: 6.4rem;
+
+  @include media('>=650px') {
+    margin: 6.4rem 6.459rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(114.29px, 1fr));
+    place-items: center;
+    column-gap: 5rem;
+  }
+
+  @include media('>tablet') {
+    grid-template-columns: repeat(3, minmax(114.29px, 1fr));
+  }
+}

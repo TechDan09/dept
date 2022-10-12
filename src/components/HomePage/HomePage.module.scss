@@ -1,0 +1,23 @@
+@import '~/styles/base.scss';
+
+.clientNote {
+  @include media('>=tablet') {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+  }
+}
+
+.clientNoteReversed {
+  @include media('>=tablet') {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  & > div:first-child {
+    flex: 1.6;
+  }
+
+  & > div:nth-child(2) {
+    flex: 1;
+  }
+}

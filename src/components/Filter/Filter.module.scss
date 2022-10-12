@@ -1,0 +1,28 @@
+@import '~/styles/base.scss';
+
+.filter {
+  background-color: $base-dark;
+  padding: 3.2rem 1.6rem;
+  color: $base-gray;
+  letter-spacing: 1.2px;
+  display: flex;
+  justify-content: space-between;
+
+  @include media('>=tablet') {
+    padding: 3.2rem 3.2rem;
+    background-color: $base-white;
+  }
+}
+
+.filterInput,
+.filterLabel {
+  p {
+    span {
+      color: $base-white;
+
+      @include media('>=tablet') {
+        color: $base-dark;
+      }
+    }
+  }
+}

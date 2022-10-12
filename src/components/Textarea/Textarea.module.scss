@@ -1,0 +1,31 @@
+@import '~/styles/base.scss';
+
+.textarea {
+  margin-bottom: 3.8rem;
+
+  label {
+    display: block;
+  }
+
+  textarea {
+    padding-top: 1rem;
+    width: 100%;
+    border-bottom: 1px solid $base-light-gray;
+    font-size: 1.6rem;
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $base-gray;
+    }
+
+    &:hover {
+      border-bottom: 1px solid $base-purple;
+    }
+  }
+
+  span {
+    display: inline-block;
+    color: #ff2929;
+    padding: 1.2rem 0;
+  }
+}
